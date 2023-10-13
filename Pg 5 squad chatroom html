@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Squad Chatroom</title>
+    <link href='https://fonts.googleapis.com/css?family=Aldrich' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Almendra SC' rel='stylesheet'>
+    <link rel="stylesheet" href="squadchat.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <header>
+        <div class="logoimg">
+          <img src="" alt="">
+        </div>
+        <h1>SQUAD CHATROOM</h1>
+        <div class="namehome">
+            <i class="fa fa-home" aria-hidden="true"></i>
+        </div>
+    </header>
+
+    <section class="search-container">
+        <div class="middlenav">
+            <form action="/action_page.php" class="searchbar">
+                <input class="input" type="text" placeholder="Search.." name="search">
+                
+                <img src="" alt="">
+            </form>
+            <button type="submit"><i class="fa fa-search"></i></button>
+
+            <div class="ii">
+                <i class="fa fa-plus" aria-hidden="true"></i>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="gradient">
+        <h2>CHATROOM</h2>
+        <div class="grads">
+            <div id="grad1">
+                <h3>Farhan's <br> Team</h3>
+                <i class="fa fa-heart" aria-hidden="true"></i>
+            </div>
+            <div id="grad2">
+                <h3>Kanishk's <br> Team</h3>
+                <i class="fa fa-heart" aria-hidden="true"></i>
+            </div>
+            <div id="grad3"><h3>NH2's <br> Team</h3></div>
+            <div id="grad4"><h3>NH's <br> Team</h3></div>
+            <div id="grad5"><h3>Leader's <br> Team</h3></div>
+            <div id="grad6"><h3>Team <br> Members</h3></div>
+        </div>
+    </section>
+
+
+    <section class="prsnl">
+        <h2>PERSONAL CHAT</h2>
+        <table>
+            <!-- <tr>
+              <th>Company</th>
+              <th>Contact</th>
+              <th>Country</th>
+            </tr> -->
+            <tr>
+              <td style="width:10%"><img src="https://th.bing.com/th/id/OIP.ydzk1TTHOUmBDq8sIhZ9JwHaHa?pid=ImgDet&w=193&h=193&c=7&dpr=1.3" alt=""></td>
+              <td style="width:85%"><h3>Farhan</h3> <br> <p>will do it</p></td>
+              <td>12 sep</td>
+            </tr>
+            <tr>
+              <td><img src="https://th.bing.com/th/id/OIP.iKVSa6AUZ-EnNEHbxOkt2wHaHa?pid=ImgDet&w=193&h=193&c=7&dpr=1.3" alt="">
+              <td><h3>Kaniskraj</h3> <br> <p>kowalski@gmail.com</p> </td>
+              <td>mon</td>
+            </tr>
+            <tr>
+              <td><img src="https://th.bing.com/th/id/OIP.p5aepZh8OpbpDE8YlmVtWgHaHa?pid=ImgDet&w=193&h=193&c=7&dpr=1.3" alt=""></td>
+              <td><h3>Hardik</h3> <br> <p>will do super, thank you</p> </td>
+              <td>1 sep</td>
+            </tr>
+            <tr>
+              <td><img src="https://th.bing.com/th/id/OIP.yGPcvE2vUlal7X-fIvobzgHaHa?pid=ImgDet&w=193&h=193&c=7&dpr=1.3" alt=""></td>
+              <td><h3>Nitya</h3> <br> <p>file uploaded</p> </td>
+              <td>tue</td>
+            </tr>
+            <tr>
+              <td><img src="https://th.bing.com/th/id/OIP.qymvs6wb9Aj2LpluuOakKwHaHa?pid=ImgDet&w=193&h=193&c=7&dpr=1.3" alt=""></td>
+              <td><h3>Harshita</h3> <br> <p>here's another tutorial</p> </td>
+              <td>wed</td>
+            </tr>
+            <!-- <tr>
+              <td>....</td>
+              <td>Giovanni Rovelli</td>
+              <td>Italy</td>
+            </tr> -->
+          </table>
+    </section>
+    
+
+    <footer class="chatbot">
+      <div class="nextpg">
+          <a href="http://127.0.0.1:5500/grpchat.html"><i class="fa fa-angle-double-right" aria-hidden="true"></i></a>
+      </div>
+  </footer>
+  
+</body>
+</html>
