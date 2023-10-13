@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SQUAD PROGRESS BAR</title>
+    <link rel="stylesheet" href="pb.css">
+</head>
+<body>
+    <header>
+        <div class="wrapper">
+            <div class="logo">
+                <img src="aa.png" alt="">
+            </div>
+            <ul class="nav-area">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Personal Chat</a></li>
+                <li><a href="#">Group Chat</a></li>
+                <li><a href="#">Task Mania</a></li>
+                <li><a href="#">Progress</a></li>
+            </ul>
+        </div>
+
+
+        <div class="container">
+           <div class="skills">
+            <h2>Squad Progress</h2>
+            <div class="progress-bar">
+                <div class="PB"><span>88%</span></div>
+            </div>
+            <h2>Farhan's Team</h2>
+            <div class="progress-bar">
+                <div class="FT"><span>78%</span></div>
+            </div>
+            <h2>kanishk's Team</h2>
+            <div class="progress-bar">
+                <div class="KT"><span>68%</span></div>
+            </div>
+            <h2>NH2's Team</h2>
+            <div class="progress-bar">
+                <div class="nh2"><span>80%</span></div>
+            </div>
+           </div>
+        </div>
+
+
+
+    </header>
+
+    
+    
+</body>
+</html>
