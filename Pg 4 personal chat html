@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PERSONAL CHAT</title>
+    <link rel="stylesheet" href="chat.css">
+</head>
+<body>
+    <div class="container">
+        <div class="leftside">
+
+            <!-- header -->
+
+            <div class="header">
+                <div class="userimg">
+                    <img src="h.jpeg" class="cover">
+                </div>
+                <h3>Personal Chat</h3>
+                <ul class="nav_icons">
+                    <li><ion-icon name="scan-circle-outline"></ion-icon></li>
+                    <li><ion-icon name="chatbox-ellipses"></ion-icon></ion-icon></li>
+                    <li><ion-icon name="ellipsis-vertical"></ion-icon></li>
+                </ul>
+            </div>
+
+            <!-- search -->
+
+            <div class="search-chat">
+                <div>
+                    <input type="text" placeholder="Search or Start New Convo....">
+                    <ion-icon name="search"></ion-icon>
+                </div>
+            </div>
+
+            <!-- chat-list -->
+
+            <div class="chatlist">
+              <div class="block active">
+                 <div class="imgbox">
+                    <img src="farhan.webp" class="cover">
+                 </div>
+                 <div class="details">
+                    <div class="listhead">
+                        <h4>Farhan</h4>
+                        <p class="time">08:26</p>
+                    </div>
+                    <div class="message">
+                        <p>Try to understand what DEFI is!!</p>
+                    </div>
+                 </div>
+                </div>
+
+                <div class="block ">
+                    <div class="imgbox">
+                       <img src="nits.jpeg" class="cover">
+                    </div>
+                    <div class="details">
+                       <div class="listhead">
+                           <h4>Nitya</h4>
+                           <p class="time">08:20</p>
+                       </div>
+                       <div class="message">
+                           <p>completed report?</p>
+                       </div>
+                    </div>
+                   </div>
+
+                   <div class="block">
+                    <div class="imgbox">
+                       <img src="hardik.jpeg" class="cover">
+                    </div>
+                    <div class="details">
+                       <div class="listhead">
+                           <h4>Hardik</h4>
+                           <p class="time">03:26</p>
+                       </div>
+                       <div class="message">
+                           <p>website done...</p>
+                       </div>
+                    </div>
+                   </div>
+
+                   <div class="block">
+                    <div class="imgbox">
+                       <img src="kanishk.jpeg" class="cover">
+                    </div>
+                    <div class="details">
+                       <div class="listhead">
+                           <h4>Kanishk</h4>
+                           <p class="time">10:26</p>
+                       </div>
+                       <div class="message">
+                           <p>Meet at 10:30.</p>
+                       </div>
+                    </div>
+                   </div>
+
+                   <div class="block unread">
+                    <div class="imgbox">
+                       <img src="neww.avif" class="cover">
+                    </div>
+                    <div class="details">
+                       <div class="listhead">
+                           <h4>New</h4>
+                           <p class="time">Yesterday</p>
+                       </div>
+                       <div class="message">
+                           <p>New Member!!!</p>
+                           <b>1</b>
+                       </div>
+                    </div>
+                   </div>
+
+            </div>
+
+
+        </div>
+
+        <div class="rightside">
+            <div class="header">
+               <div class="imgtext">
+                <div class="userimg">
+                    <img src="nits.jpeg" class="cover">
+                </div>
+                <h4>Nitya <br><span>Online</span></h4>
+               </div>
+                <ul class="nav_icons">
+                    <li><ion-icon name="search"></ion-icon></li>
+                    <li><ion-icon name="ellipsis-vertical"></ion-icon></li>
+                </ul>
+            </div>
+
+            <!-- chatbox -->
+
+            <div class="chatbox">
+                <div class="messagee my_msg">
+                   <p>Nitya <br><span>12:36</span></p>
+               </div>
+               <div class="messagee frnd_msg">
+                 <p>Hello <br><span>12:50</span></p>
+               </div>
+               <div class="messagee my_msg">
+                  <p>Topic <br><span>12:36</span></p>
+               </div>
+              <div class="messagee frnd_msg">
+                <p>Defi<br><span>12:50</span></p>
+               </div>
+              <div class="messagee my_msg">
+                <p>Dao <br><span>12:36</span></p>
+               </div>
+
+               <div class="messagee frnd_msg">
+                <p>done with it <br><span>12:50</span></p>
+               </div>
+               <div class="messagee my_msg">
+                <p>naah ...!!!<br><span>12:36</span></p>
+               </div>
+               <div class="messagee frnd_msg">
+                <p>same here <br><span>12:50</span></p>
+                </div>
+                <div class="messagee my_msg">
+                    <p>!!!!<br><span>12:36</span></p>
+                   </div>
+                   <div class="messagee frnd_msg">
+                    <p>Yup <br><span>12:50</span></p>
+                    </div>
+            
+            </div>
+       
+
+        <!-- chat input -->
+
+        <div class="chatinput">
+            <ion-icon name="happy-outline"></ion-icon>
+            <ion-icon name="link-outline"></ion-icon>
+            <input type="text" placeholder="Type your msg....">
+            <ion-icon name="camera-outline"></ion-icon>
+        </div>
+        
+    </div>
+    </div>
+   
+
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+</body>
+</html>
