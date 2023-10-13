@@ -1,0 +1,284 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Spartan', sans-serif;
+}
+
+body{
+    width: 100%;
+    /* overflow-y: hidden; /* Hide vertical scrollbar 
+    overflow-x: hidden; */
+    /* background-color: black; */
+    background-image: url("imgdefi/background3.jpg");
+    /* background-size: 100% 100%; */
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: blueviolet;
+    border-radius: 50px;
+    padding-top: 10px;
+    
+}
+header h1{
+    color: azure;
+    font-family: 'Aldrich';
+    font-size: 60px;
+    font-weight: 300;
+    font-stretch:extra-expanded;
+    
+}
+header img{
+    height: 40px;
+    
+}
+
+
+.middlenav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    float: none;
+    position: absolute;
+    top: 19%;
+    right: -7%;
+    transform: translate(-50%, -50%);
+    
+}
+.middlenav img{
+    width: 30px;
+    height: 30px;
+    margin-top: 10px;
+}
+.middlenav img:hover{
+    cursor: pointer;
+}
+.middlenav h2{
+    color: azure;
+    margin-right: 250px;
+    margin-left: 60px;
+}
+.middlenav .search-container .input{
+    border: none;
+    border-radius: 10px;
+}
+.middlenav .search-container button {
+    float: right;
+    padding: 6px 6px;
+    margin-top: 8px;
+    margin-right: 6px;
+    background: #ddd;
+    font-size: 17px;
+    border: none;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: white;
+    cursor: pointer;
+}
+
+.middlenav .search-container button:hover {
+    background: blueviolet;
+}
+.middlenav input[type=text] {
+    padding: 6px;
+    margin-left: 200px;
+    margin-top: 8px;
+    font-size: 17px;
+    border: none;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+
+.days-task{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 160px;
+    padding: 0 50px;
+}
+.days-task h3{
+    color: white;
+}
+#grad1 {
+    height: 150px;
+    width: 13%;
+    background-color: red; /* For browsers that do not support gradients */
+    background-image: linear-gradient(to bottom right, blue, yellow);
+    border-radius: 30px;
+}
+#grad1:hover{
+    border: 2px solid blueviolet;
+    /* transition: ease-in-out; */
+    cursor: pointer;
+}
+#grad2 {
+    height: 150px;
+    width: 13%;
+    background-color: red; /* For browsers that do not support gradients */
+    background-image: linear-gradient(to bottom right, red, yellow);
+    border-radius: 30px;
+}
+#grad2:hover{
+    border: 2px solid blueviolet;
+    cursor: pointer;
+}
+#grad3 {
+    height: 150px;
+    width: 13%;
+    background-color: red; /* For browsers that do not support gradients */
+    background-image: linear-gradient(to bottom right, pink, purple);
+    border-radius: 30px;
+}
+#grad3:hover{
+    border: 2px solid blueviolet;
+    cursor: pointer;
+}
+#grad4 {
+    height: 150px;
+    width: 13%;
+    background-color: red; /* For browsers that do not support gradients */
+    background-image: linear-gradient(to bottom right, red, green);
+    border-radius: 30px;
+}
+#grad4:hover{
+    border: 2px solid blueviolet;
+    cursor: pointer;
+}
+#grad5 {
+    height: 150px;
+    width: 13%;
+    background-color: red; /* For browsers that do not support gradients */
+    background-image: linear-gradient(to bottom right, rgb(76, 2, 26), rgb(0, 8, 255));
+    border-radius: 30px;
+}
+#grad5:hover{
+    border: 2px solid blueviolet;
+    cursor: pointer;
+}
+#grad6 {
+    height: 150px;
+    width: 13%;
+    background-color: red; /* For browsers that do not support gradients */
+    background-image: linear-gradient(to bottom right, rgb(255, 208, 0), rgb(0, 255, 179));
+    border-radius: 30px;
+}
+#grad6:hover{
+    border: 2px solid blueviolet;
+    cursor: pointer;
+}
+
+.tasks .text{
+    color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 70px;
+}
+.tasks .text h4{
+    font-weight: 100;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 20px;
+}
+.tasks .text h4:hover{
+    text-decoration: underline;
+    color:blueviolet;
+    cursor: pointer;
+}
+
+.dot {
+    cursor: pointer;
+    height: 10px;
+    width: 10px;
+    margin: 0 2px;
+    background-color: gray;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+    margin-top: 50px;
+}
+  
+.active, .dot:hover {
+    background-color: blueviolet;
+}
+
+
+
+.suggestion h2{
+    color: azure;
+    margin-left: 6%;
+    margin-top: 60px;
+}
+table {
+    margin-top: 50px;
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 80%;
+    color: azure;
+    margin-left: 160px;
+}
+td{
+    border: 0px solid #dddddd;
+    text-align: left;
+    padding: 8px 0;
+}
+td img{
+    height: 40px;
+    border-radius: 180px;
+    margin-left: 50px;
+    margin-top: -15px;
+}
+td h3:hover{
+    color: blueviolet;
+    text-decoration: underline;
+    border: 0.5px;
+    transition: 0.3s ease-in-out;
+    cursor:grabbing;
+}
+hr{
+    color: blueviolet;
+}
+
+
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: blueviolet;
+    /* border-top-left-radius: 50px;
+    border-top-right-radius: 50px; */
+    border-radius: 50px;
+    padding-top: 10px;
+    margin-top: 50px;
+
+}
+.chatbot .bot i{
+    margin-right: 30px;
+    color: black;
+    font-size: 40px;
+}
+.chatbot .nextpg i{
+    color: black;
+    font-size: 40px;
+    cursor: pointer;
+}
+footer h1{
+    color: black;
+    background-color: blueviolet;
+    font-family: 'Aldrich';
+    font-size: 40px;
+    font-weight: 400;
+    font-stretch:extra-expanded;
+}
+footer h1:hover{
+    text-decoration: underline;
+    text-shadow: black;
+}
