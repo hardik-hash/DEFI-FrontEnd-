@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="tasksubmission.css">
+    <link href='https://fonts.googleapis.com/css?family=Aldrich' rel='stylesheet'>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>De-Fi pg7 Team Chats</title>
+</head>
+<body>
+    <section class="submission">
+        <header>
+            <img src="" alt="">
+            <h1>TASK SUBMISSION</h1>
+        </header>
+    </section>
+    <section class="search-container">
+        <div class="middlenav">
+            <form action="/action_page.php" class="searchbar">
+                <input class="input" type="text" placeholder="Search.." name="search">
+                
+                <img src="" alt="">
+            </form>
+            <button type="submit"><i class="fa fa-search"></i></button>
+        </div>
+    </section>
+
+
+
+    <section class="gradient">
+        <div class="grads">
+            <div id="grad1"><h3>Farhan's  Team</h3></div>
+            <div id="grad2"><h3>Kanishk's Team</h3></div>
+        </div>
+        <div class="grads">
+            <div id="grad3"><h3>NH2's  Team</h3></div>
+            <div id="grad4"><h3>Other Team</h3></div>
+        </div>
+    </section>
+
+
+
+    <footer class="chatbot">
+        <img src="" alt="">
+        <i class="fa fa-bullhorn" aria-hidden="true"></i>
+        <h1 class="a">REMAINDERS</h1>
+        <div class="nextpg">
+            <a href="http://127.0.0.1:5500/NH2team.html"><i class="fa fa-angle-double-right" aria-hidden="true"></i></a>
+        </div>
+    </footer>
+</body>
+</html>
