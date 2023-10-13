@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Spartan', sans-serif;
+}
+
+body{
+    width: 100%;
+    /* overflow-y: hidden; /* Hide vertical scrollbar 
+    overflow-x: hidden; */
+    /* background-color: black; */
+    background-image: url("imgdefi/fi.gif");
+    /* background-size: 100% 100%; */
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+header{
+    display: flex;
+    align-items:flex-start;
+    justify-content: flex-start;
+    background-color: blueviolet;
+    border-radius: 50px;
+    padding-top: 10px;
+    position: fixed;
+}
+header h1{
+    color: azure;
+    font-family: 'Aldrich';
+    font-size: 60px;
+    font-weight: 300;
+    font-stretch:extra-expanded;
+    padding-right: 300px;
+}
+header img{
+    border: none;
+    border-radius: 50px;
+    height: 50px;
+    width: 50px;
+    justify-content: center;
+    margin-top: 7px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+
+
+
+.Mimg{
+    margin-top: 1%;
+}
+.dot0 img{
+    cursor: pointer;
+    height: 50px;
+    width: 50px;
+    margin: 8px 2px;
+    /* background-color: gray; */
+    /* background-image: url("https://th.bing.com/th/id/OIP.ydzk1TTHOUmBDq8sIhZ9JwHaHa?pid=ImgDet&w=193&h=193&c=7&dpr=1.3"); */
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+    margin-top: 8%;
+    border: 3px solid transparent;
+}
+.active, .dot0 img:hover {
+    /* background-color: blueviolet; */
+    border-color: blueviolet;
+}
+
+.dot1 img{
+    cursor: pointer;
+    height: 50px;
+    width: 50px;
+    margin: 18px 4px;
+    /* background-color: gray; */
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+    margin-top: 50px;
+    border: 3px solid transparent;
+}
+.active, .dot1 img:hover {
+    border-color: blueviolet;
+}
+
+
+
+.msg{
+    display: flex;
+    align-items:flex-start;
+    justify-content: flex-start;
+    margin-top: 30%;
+}
+.msg input{
+    width: 80%;
+    box-shadow: 5px 7px 8px 3px rgba(111, 95, 95, 0.5);;
+    padding: 6px;
+    margin-top: 8px;
+    font-size: 17px;
+    border: none;
+    border-radius: 10px;
+    margin-left: 15px;
+}
+.msg .send{
+    margin: 0 8px;
+    font-size: 30px;
+}
+.msg .opt{
+    margin: 0 5px;
+    font-size: 25px;
+}
