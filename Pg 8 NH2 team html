@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="NH2team.css">
+    <link href='https://fonts.googleapis.com/css?family=Aldrich' rel='stylesheet'>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>De-Fi pg8 Chat</title>
+</head>
+<body>
+
+
+
+    
+    <section class="team">
+            <img src="imgdefi/fir.gif" alt="">
+            <h1>NH2's TEAM</h1>
+    </section>
+
+
+
+    <section class="options">
+        <div class="opt1"><h4>new user</h4></div>
+        <div class="opt2"><h4>delete chatroom</h4></div>
+    </section>
+    <section class="members">
+        <div class="icon">
+            <img src="https://th.bing.com/th/id/OIP.ydzk1TTHOUmBDq8sIhZ9JwHaHa?pid=ImgDet&w=193&h=193&c=7&dpr=1.3" alt="">
+            <h2>FARHAN</h2>
+        </div>
+        <div class="F">
+            <div class="F1"><h4>full access</h4></div>
+            <div class="F2"><h4>admin</h4></div>
+            <i class="fa fa-trash" aria-hidden="true"></i>
+        </div>
+
+        <div class="icon">
+            <img src="https://th.bing.com/th/id/OIP.iKVSa6AUZ-EnNEHbxOkt2wHaHa?pid=ImgDet&w=193&h=193&c=7&dpr=1.3" alt="">
+            <h2>KANISHK</h2>
+        </div>
+        <div class="F">
+            <div class="F1"><h4>full access</h4></div>
+            <div class="F2"><h4>admin</h4></div>
+            <i class="fa fa-trash" aria-hidden="true"></i>
+        </div>
+
+        <div class="icon">
+            <img src="https://th.bing.com/th/id/OIP.p5aepZh8OpbpDE8YlmVtWgHaHa?pid=ImgDet&w=193&h=193&c=7&dpr=1.3" alt="">
+            <h2>HARDIK..</h2>
+        </div>
+        <div class="F">
+            <div class="F1"><h4>full access</h4></div>
+            <div class="F2"><h4>admin</h4></div>
+            <i class="fa fa-trash" aria-hidden="true"></i>
+        </div>
+
+        <div class="icon">
+            <img src="https://th.bing.com/th/id/OIP.yGPcvE2vUlal7X-fIvobzgHaHa?pid=ImgDet&w=193&h=193&c=7&dpr=1.3" alt="">
+            <h2>NITYA...</h2>
+        </div>
+        <div class="F">
+            <div class="F1"><h4>full access</h4></div>
+            <div class="F2"><h4>admin</h4></div>
+            <i class="fa fa-trash" aria-hidden="true"></i>
+        </div>
+
+        <div class="icon">
+            <img src="https://th.bing.com/th/id/OIP.qymvs6wb9Aj2LpluuOakKwHaHa?pid=ImgDet&w=193&h=193&c=7&dpr=1.3" alt="">
+            <h2>HRSHITA</h2>
+        </div>
+        <div class="F">
+            <div class="F1"><h4>full access</h4></div>
+            <div class="F2"><h4>admin</h4></div>
+            <i class="fa fa-trash" aria-hidden="true"></i>
+        </div>
+    </section>
+
+
+    <footer class="chatbot">
+        <div class="nextpg">
+            <a href="http://127.0.0.1:5500/squadchat.html"><i class="fa fa-angle-double-right" aria-hidden="true"></i></a>
+        </div>
+    </footer>
+
+
+</body>
+</html>
