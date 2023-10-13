@@ -1,0 +1,172 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins' , sans-serif;
+    box-sizing: border-box;
+
+}
+
+.wrapper
+{
+    width: 1170x;
+    margin: auto;
+}
+
+header
+{
+    background: black;
+    height: 100vh;
+    -webkit-background-size: cover ;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+}
+
+.nav-area 
+{
+    float: right;
+    list-style: none;
+    margin-top: 30px;
+}
+
+.nav-area li 
+{
+    display: inline-block;
+}
+
+.nav-area li a 
+{
+    color: #fdfdfd;
+    text-decoration: none;
+    padding: 5px 20px;
+    font-family: "poppins" , sans-serif;
+    font-size: 18px;
+}
+
+.nav-area li a:hover
+{
+    background: rgb(97, 80, 181);
+    color: #fefafa;
+}
+
+.logo img
+{
+    width: 100px;
+    float: left;
+    height: auto;
+
+}
+
+
+/* progress-bar */
+
+.container 
+{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    /* background: url(pr.gif); */
+}
+
+.skills h2
+{
+    font-weight: 400;
+    letter-spacing: 1px;
+    margin-top: 40px;
+    margin-bottom: 5px;
+    color: #fff;
+    font-size: 16px;
+}
+
+.progress-bar
+{
+    background: rgb(239, 233, 239);
+    width: 600px;
+    height: 10px;
+    border-radius: 5px;
+}
+
+.progress-bar div 
+{
+    height: 10px;
+    border-radius: 5px;
+    width: 50%;
+    /* background: powderblue; */
+}
+
+.progress-bar div span
+{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background: #040404;
+    float: right;
+    margin-top: -15px;
+    margin-right: -20px;
+    color: #fffcfc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.PB
+{
+    background: #e916e9;
+    animation: PB 1s linear forwards;
+}
+.FT
+{
+    background: #55c0c8;
+    animation: FT 1s linear forwards;
+}
+.KT
+{
+    background: pink;
+    animation: KT 1s linear forwards;
+}
+.nh2
+{
+    background: palegreen;
+    animation: nh2 1s linear forwards;
+}
+
+.PB span
+{
+    border: 1px solid #e916e9;
+    animation: PB 1s linear #e916e9 ;
+}
+.FT span
+{
+    border: 1px solid #55c0c8;
+    animation: FT 1s linear forwards #55c0c8;
+}
+.KT span
+{
+    border: 1px solid pink;
+    animation: KT 1s linear forwards pink ;
+}
+
+.nh2 span
+{
+    border: 1px solid palegreen;
+    animation: nh2 1s linear forwards palegreen;
+}
+
+@keyframes PB
+{
+    100%{width: 86%;}
+}
+@keyframes FT
+{
+    100%{width: 78%;}
+}
+@keyframes KT
+{
+    100%{width: 68%;}
+}
+@keyframes nh2
+{
+    100%{width: 80%;}
+}
