@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Spartan', sans-serif;
+}
+
+body{
+    width: 100%;
+    /* overflow-y: hidden; /* Hide vertical scrollbar 
+    overflow-x: hidden; */
+    /* background-color: black; */
+    background-image: url("imgdefi/iron.gif");
+    /* background-size: 100% 100%; */
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+
+
+.team{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: blueviolet;
+    border-radius: 50px;
+    padding-top: 10px;
+    position: fixed;
+}
+.team img{
+    height: 50px;
+    width: 50px;
+    border: none;
+    border-radius: 50%;
+    margin: 0 20px;
+}
+.team h1{
+    color: rgb(255, 255, 255);
+    font-family: 'Aldrich';
+    font-size: 60px;
+    font-weight: 300;
+    font-stretch:extra-expanded;
+    padding-right: 300px;
+}
+
+
+
+.options{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    flex-wrap: wrap;
+    /* margin-top: 10%; */
+}
+.options h4{
+    color: azure;
+    font-size: 25px;
+    font-weight: 100;
+}
+.options .opt1{
+    background-color:rgb(34, 165, 246);
+    padding: 5px 75px;
+    margin: 30px 50px; 
+    border-radius: 10px;
+    margin-top: 10%;
+}
+.options .opt2{
+    background-color: rgb(135, 2, 2);
+    padding: 5px 75px;
+    margin: 30px 50px; 
+    border-radius: 10px;
+    margin-top: 10%;
+}
+.options .opt1:hover {
+    cursor: progress;
+    background-color: rgb(0, 126, 204);
+}
+.options .opt2:hover{
+    cursor: progress;
+    background-color: rgb(78, 0, 0);
+}
+
+
+
+.members .icon img{
+    height: 60px;
+    border-radius: 180px;
+}
+.members .icon{
+    margin-left: -36.5%;
+}
+.members .icon{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+.F{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    flex-wrap: wrap;
+}
+.F i{
+    color: azure;
+}
+.F i:hover{
+    cursor: pointer;
+    text-decoration: overline;
+    color: chartreuse;
+    transition: 0.2s ease-in-out;
+    height: 20px;
+}
+.members h2{
+    color: azure;
+    margin-left: 40px;
+}
+.F h4{
+    color: azure;
+}
+.F .F1{
+    background-color: blueviolet;
+    padding: 5px 75px;
+    margin: 20px 50px; 
+    border-radius: 10px;
+}
+.F .F2{
+    background-color: lightslategray;
+    padding: 5px 75px;
+    margin: 20px 50px; 
+    border-radius: 10px;
+}
+.F .F1:hover{
+    cursor: pointer;
+    text-decoration: solid;
+    background-color: rgb(75, 0, 146);
+    transition: 0.3s ease-in-out;
+}
+.F .F2:hover{
+    cursor: pointer;
+    text-decoration:solid;
+    background-color: rgb(92, 101, 109);
+    transition: 0.3s ease-in-out;
+}
+
+
+.chatbot .nextpg i{
+    color: whitesmoke;
+    font-size: 40px;
+    cursor: pointer;
+    margin-left: 90%;
+}
